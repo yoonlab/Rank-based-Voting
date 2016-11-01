@@ -20,7 +20,7 @@ Caffe deep learning framework (https://github.com/BVLC/caffe), python implementa
 2. Check the search results in the results directory.
 
 ## Notes
-1. Existing features are extracted from Oxford 5k with k=30, and it shows 0.663 mAP (0.768 mAP with k=150 in the paper).
+1. Existing results were achieved from Oxford 5k with k=30, and it shows 0.663 mAP (0.768 mAP with k=150 in the paper).
 2. You can change the parameters k and v in extract_query_img.py and extract_test_img.py. But as we mentioned, this version does not adopt PQ so the larger k can increase the search time a lot.
 3. As described in the paper, you can apply PQ for this method. You can generate binary codes after the feature extraction step, and achieve shortlists using binary codes previous to the search step.
 4. learned_PCA.pkl in data directory is trained on Oxford 5k benchmark with single global descriptors, and whitening is not activated.
