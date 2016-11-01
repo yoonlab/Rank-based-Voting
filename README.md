@@ -11,7 +11,7 @@ Caffe deep learning framework (https://github.com/BVLC/caffe), python implementa
 ## Usage
 
 ### Feature Extraction
-1. Specify pathes for dataset, modules, and setting files in \_init_paths.py file.
+1. Specify pathes for dataset, modules, and setting files in \_init_paths.py file. sample directory contains some examples for the format of file lists.
 2. Execute the extract_test_img.sh for extracting features from test images.
 3. Execute the extract_query_img.py for extracting features from query images.
 
